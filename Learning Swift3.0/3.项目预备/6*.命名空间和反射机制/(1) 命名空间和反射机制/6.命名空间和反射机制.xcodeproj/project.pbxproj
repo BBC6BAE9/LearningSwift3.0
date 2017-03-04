@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FCA2281E27982A005EB130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCA2271E27982A005EB130 /* AppDelegate.swift */; };
+		04FCA22A1E27982A005EB130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCA2291E27982A005EB130 /* ViewController.swift */; };
+		04FCA22D1E27982A005EB130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FCA22B1E27982A005EB130 /* Main.storyboard */; };
+		04FCA22F1E27982A005EB130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FCA22E1E27982A005EB130 /* Assets.xcassets */; };
+		04FCA2321E27982A005EB130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FCA2301E27982A005EB130 /* LaunchScreen.storyboard */; };
+		04FCA23D1E27982B005EB130 /* ___________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCA23C1E27982B005EB130 /* ___________Tests.swift */; };
+		04FCA2481E27982B005EB130 /* ___________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCA2471E27982B005EB130 /* ___________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FCA2391E27982A005EB130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FCA21C1E27982A005EB130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FCA2231E27982A005EB130;
+			remoteInfo = "6.命名空间和反射机制";
+		};
+		04FCA2441E27982B005EB130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FCA21C1E27982A005EB130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FCA2231E27982A005EB130;
+			remoteInfo = "6.命名空间和反射机制";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FCA2241E27982A005EB130 /* 6.命名空间和反射机制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "6.命名空间和反射机制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FCA2271E27982A005EB130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04FCA2291E27982A005EB130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04FCA22C1E27982A005EB130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FCA22E1E27982A005EB130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FCA2311E27982A005EB130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FCA2331E27982A005EB130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FCA2381E27982A005EB130 /* 6.命名空间和反射机制Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "6.命名空间和反射机制Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FCA23C1E27982B005EB130 /* ___________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___________Tests.swift"; sourceTree = "<group>"; };
+		04FCA23E1E27982B005EB130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FCA2431E27982B005EB130 /* 6.命名空间和反射机制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "6.命名空间和反射机制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FCA2471E27982B005EB130 /* ___________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___________UITests.swift"; sourceTree = "<group>"; };
+		04FCA2491E27982B005EB130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FCA2211E27982A005EB130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FCA2351E27982A005EB130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FCA2401E27982B005EB130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FCA21B1E27982A005EB130 = {
+			isa = PBXGroup;
+			children = (
+				04FCA2261E27982A005EB130 /* 6.命名空间和反射机制 */,
+				04FCA23B1E27982A005EB130 /* 6.命名空间和反射机制Tests */,
+				04FCA2461E27982B005EB130 /* 6.命名空间和反射机制UITests */,
+				04FCA2251E27982A005EB130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FCA2251E27982A005EB130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FCA2241E27982A005EB130 /* 6.命名空间和反射机制.app */,
+				04FCA2381E27982A005EB130 /* 6.命名空间和反射机制Tests.xctest */,
+				04FCA2431E27982B005EB130 /* 6.命名空间和反射机制UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FCA2261E27982A005EB130 /* 6.命名空间和反射机制 */ = {
+			isa = PBXGroup;
+			children = (
+				04FCA2271E27982A005EB130 /* AppDelegate.swift */,
+				04FCA2291E27982A005EB130 /* ViewController.swift */,
+				04FCA22B1E27982A005EB130 /* Main.storyboard */,
+				04FCA22E1E27982A005EB130 /* Assets.xcassets */,
+				04FCA2301E27982A005EB130 /* LaunchScreen.storyboard */,
+				04FCA2331E27982A005EB130 /* Info.plist */,
+			);
+			path = "6.命名空间和反射机制";
+			sourceTree = "<group>";
+		};
+		04FCA23B1E27982A005EB130 /* 6.命名空间和反射机制Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04FCA23C1E27982B005EB130 /* ___________Tests.swift */,
+				04FCA23E1E27982B005EB130 /* Info.plist */,
+			);
+			path = "6.命名空间和反射机制Tests";
+			sourceTree = "<group>";
+		};
+		04FCA2461E27982B005EB130 /* 6.命名空间和反射机制UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04FCA2471E27982B005EB130 /* ___________UITests.swift */,
+				04FCA2491E27982B005EB130 /* Info.plist */,
+			);
+			path = "6.命名空间和反射机制UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FCA2231E27982A005EB130 /* 6.命名空间和反射机制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FCA24C1E27982B005EB130 /* Build configuration list for PBXNativeTarget "6.命名空间和反射机制" */;
+			buildPhases = (
+				04FCA2201E27982A005EB130 /* Sources */,
+				04FCA2211E27982A005EB130 /* Frameworks */,
+				04FCA2221E27982A005EB130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.命名空间和反射机制";
+			productName = "6.命名空间和反射机制";
+			productReference = 04FCA2241E27982A005EB130 /* 6.命名空间和反射机制.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FCA2371E27982A005EB130 /* 6.命名空间和反射机制Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FCA24F1E27982B005EB130 /* Build configuration list for PBXNativeTarget "6.命名空间和反射机制Tests" */;
+			buildPhases = (
+				04FCA2341E27982A005EB130 /* Sources */,
+				04FCA2351E27982A005EB130 /* Frameworks */,
+				04FCA2361E27982A005EB130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FCA23A1E27982A005EB130 /* PBXTargetDependency */,
+			);
+			name = "6.命名空间和反射机制Tests";
+			productName = "6.命名空间和反射机制Tests";
+			productReference = 04FCA2381E27982A005EB130 /* 6.命名空间和反射机制Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04FCA2421E27982B005EB130 /* 6.命名空间和反射机制UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FCA2521E27982B005EB130 /* Build configuration list for PBXNativeTarget "6.命名空间和反射机制UITests" */;
+			buildPhases = (
+				04FCA23F1E27982B005EB130 /* Sources */,
+				04FCA2401E27982B005EB130 /* Frameworks */,
+				04FCA2411E27982B005EB130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FCA2451E27982B005EB130 /* PBXTargetDependency */,
+			);
+			name = "6.命名空间和反射机制UITests";
+			productName = "6.命名空间和反射机制UITests";
+			productReference = 04FCA2431E27982B005EB130 /* 6.命名空间和反射机制UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FCA21C1E27982A005EB130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = BBC6BAE9;
+				TargetAttributes = {
+					04FCA2231E27982A005EB130 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						ProvisioningStyle = Automatic;
+					};
+					04FCA2371E27982A005EB130 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04FCA2231E27982A005EB130;
+					};
+					04FCA2421E27982B005EB130 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04FCA2231E27982A005EB130;
+					};
+				};
+			};
+			buildConfigurationList = 04FCA21F1E27982A005EB130 /* Build configuration list for PBXProject "6.命名空间和反射机制" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FCA21B1E27982A005EB130;
+			productRefGroup = 04FCA2251E27982A005EB130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FCA2231E27982A005EB130 /* 6.命名空间和反射机制 */,
+				04FCA2371E27982A005EB130 /* 6.命名空间和反射机制Tests */,
+				04FCA2421E27982B005EB130 /* 6.命名空间和反射机制UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FCA2221E27982A005EB130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FCA2321E27982A005EB130 /* LaunchScreen.storyboard in Resources */,
+				04FCA22F1E27982A005EB130 /* Assets.xcassets in Resources */,
+				04FCA22D1E27982A005EB130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FCA2361E27982A005EB130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FCA2411E27982B005EB130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FCA2201E27982A005EB130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FCA22A1E27982A005EB130 /* ViewController.swift in Sources */,
+				04FCA2281E27982A005EB130 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FCA2341E27982A005EB130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FCA23D1E27982B005EB130 /* ___________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FCA23F1E27982B005EB130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FCA2481E27982B005EB130 /* ___________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FCA23A1E27982A005EB130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FCA2231E27982A005EB130 /* 6.命名空间和反射机制 */;
+			targetProxy = 04FCA2391E27982A005EB130 /* PBXContainerItemProxy */;
+		};
+		04FCA2451E27982B005EB130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FCA2231E27982A005EB130 /* 6.命名空间和反射机制 */;
+			targetProxy = 04FCA2441E27982B005EB130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FCA22B1E27982A005EB130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FCA22C1E27982A005EB130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FCA2301E27982A005EB130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FCA2311E27982A005EB130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FCA24A1E27982B005EB130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04FCA24B1E27982B005EB130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FCA24D1E27982B005EB130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "6.命名空间和反射机制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04FCA24E1E27982B005EB130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "6.命名空间和反射机制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04FCA2501E27982B005EB130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "6.命名空间和反射机制Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6.命名空间和反射机制.app/6.命名空间和反射机制";
+			};
+			name = Debug;
+		};
+		04FCA2511E27982B005EB130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "6.命名空间和反射机制Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6.命名空间和反射机制.app/6.命名空间和反射机制";
+			};
+			name = Release;
+		};
+		04FCA2531E27982B005EB130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "6.命名空间和反射机制UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "6.命名空间和反射机制";
+			};
+			name = Debug;
+		};
+		04FCA2541E27982B005EB130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "6.命名空间和反射机制UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "6.命名空间和反射机制";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FCA21F1E27982A005EB130 /* Build configuration list for PBXProject "6.命名空间和反射机制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FCA24A1E27982B005EB130 /* Debug */,
+				04FCA24B1E27982B005EB130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FCA24C1E27982B005EB130 /* Build configuration list for PBXNativeTarget "6.命名空间和反射机制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FCA24D1E27982B005EB130 /* Debug */,
+				04FCA24E1E27982B005EB130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FCA24F1E27982B005EB130 /* Build configuration list for PBXNativeTarget "6.命名空间和反射机制Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FCA2501E27982B005EB130 /* Debug */,
+				04FCA2511E27982B005EB130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FCA2521E27982B005EB130 /* Build configuration list for PBXNativeTarget "6.命名空间和反射机制UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FCA2531E27982B005EB130 /* Debug */,
+				04FCA2541E27982B005EB130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FCA21C1E27982A005EB130 /* Project object */;
+}

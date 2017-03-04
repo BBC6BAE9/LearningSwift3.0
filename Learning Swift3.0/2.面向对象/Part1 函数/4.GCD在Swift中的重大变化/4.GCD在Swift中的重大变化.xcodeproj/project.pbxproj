@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040003DA1E223ADA00CDC50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040003D91E223ADA00CDC50D /* AppDelegate.swift */; };
+		040003DC1E223ADA00CDC50D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040003DB1E223ADA00CDC50D /* ViewController.swift */; };
+		040003DF1E223ADA00CDC50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040003DD1E223ADA00CDC50D /* Main.storyboard */; };
+		040003E11E223ADA00CDC50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040003E01E223ADA00CDC50D /* Assets.xcassets */; };
+		040003E41E223ADA00CDC50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040003E21E223ADA00CDC50D /* LaunchScreen.storyboard */; };
+		040003EF1E223ADB00CDC50D /* __GCD_Swift______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040003EE1E223ADB00CDC50D /* __GCD_Swift______Tests.swift */; };
+		040003FA1E223ADB00CDC50D /* __GCD_Swift______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040003F91E223ADB00CDC50D /* __GCD_Swift______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040003EB1E223ADB00CDC50D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040003CE1E223ADA00CDC50D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040003D51E223ADA00CDC50D;
+			remoteInfo = "4.GCD在Swift中的重大变化";
+		};
+		040003F61E223ADB00CDC50D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040003CE1E223ADA00CDC50D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040003D51E223ADA00CDC50D;
+			remoteInfo = "4.GCD在Swift中的重大变化";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040003D61E223ADA00CDC50D /* 4.GCD在Swift中的重大变化.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4.GCD在Swift中的重大变化.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040003D91E223ADA00CDC50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		040003DB1E223ADA00CDC50D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		040003DE1E223ADA00CDC50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040003E01E223ADA00CDC50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040003E31E223ADA00CDC50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040003E51E223ADA00CDC50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040003EA1E223ADB00CDC50D /* 4.GCD在Swift中的重大变化Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4.GCD在Swift中的重大变化Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040003EE1E223ADB00CDC50D /* __GCD_Swift______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__GCD_Swift______Tests.swift"; sourceTree = "<group>"; };
+		040003F01E223ADB00CDC50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040003F51E223ADB00CDC50D /* 4.GCD在Swift中的重大变化UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4.GCD在Swift中的重大变化UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040003F91E223ADB00CDC50D /* __GCD_Swift______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__GCD_Swift______UITests.swift"; sourceTree = "<group>"; };
+		040003FB1E223ADB00CDC50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040003D31E223ADA00CDC50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040003E71E223ADB00CDC50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040003F21E223ADB00CDC50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040003CD1E223ADA00CDC50D = {
+			isa = PBXGroup;
+			children = (
+				040003D81E223ADA00CDC50D /* 4.GCD在Swift中的重大变化 */,
+				040003ED1E223ADB00CDC50D /* 4.GCD在Swift中的重大变化Tests */,
+				040003F81E223ADB00CDC50D /* 4.GCD在Swift中的重大变化UITests */,
+				040003D71E223ADA00CDC50D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040003D71E223ADA00CDC50D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040003D61E223ADA00CDC50D /* 4.GCD在Swift中的重大变化.app */,
+				040003EA1E223ADB00CDC50D /* 4.GCD在Swift中的重大变化Tests.xctest */,
+				040003F51E223ADB00CDC50D /* 4.GCD在Swift中的重大变化UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040003D81E223ADA00CDC50D /* 4.GCD在Swift中的重大变化 */ = {
+			isa = PBXGroup;
+			children = (
+				040003D91E223ADA00CDC50D /* AppDelegate.swift */,
+				040003DB1E223ADA00CDC50D /* ViewController.swift */,
+				040003DD1E223ADA00CDC50D /* Main.storyboard */,
+				040003E01E223ADA00CDC50D /* Assets.xcassets */,
+				040003E21E223ADA00CDC50D /* LaunchScreen.storyboard */,
+				040003E51E223ADA00CDC50D /* Info.plist */,
+			);
+			path = "4.GCD在Swift中的重大变化";
+			sourceTree = "<group>";
+		};
+		040003ED1E223ADB00CDC50D /* 4.GCD在Swift中的重大变化Tests */ = {
+			isa = PBXGroup;
+			children = (
+				040003EE1E223ADB00CDC50D /* __GCD_Swift______Tests.swift */,
+				040003F01E223ADB00CDC50D /* Info.plist */,
+			);
+			path = "4.GCD在Swift中的重大变化Tests";
+			sourceTree = "<group>";
+		};
+		040003F81E223ADB00CDC50D /* 4.GCD在Swift中的重大变化UITests */ = {
+			isa = PBXGroup;
+			children = (
+				040003F91E223ADB00CDC50D /* __GCD_Swift______UITests.swift */,
+				040003FB1E223ADB00CDC50D /* Info.plist */,
+			);
+			path = "4.GCD在Swift中的重大变化UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040003D51E223ADA00CDC50D /* 4.GCD在Swift中的重大变化 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040003FE1E223ADB00CDC50D /* Build configuration list for PBXNativeTarget "4.GCD在Swift中的重大变化" */;
+			buildPhases = (
+				040003D21E223ADA00CDC50D /* Sources */,
+				040003D31E223ADA00CDC50D /* Frameworks */,
+				040003D41E223ADA00CDC50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4.GCD在Swift中的重大变化";
+			productName = "4.GCD在Swift中的重大变化";
+			productReference = 040003D61E223ADA00CDC50D /* 4.GCD在Swift中的重大变化.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040003E91E223ADB00CDC50D /* 4.GCD在Swift中的重大变化Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040004011E223ADB00CDC50D /* Build configuration list for PBXNativeTarget "4.GCD在Swift中的重大变化Tests" */;
+			buildPhases = (
+				040003E61E223ADB00CDC50D /* Sources */,
+				040003E71E223ADB00CDC50D /* Frameworks */,
+				040003E81E223ADB00CDC50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040003EC1E223ADB00CDC50D /* PBXTargetDependency */,
+			);
+			name = "4.GCD在Swift中的重大变化Tests";
+			productName = "4.GCD在Swift中的重大变化Tests";
+			productReference = 040003EA1E223ADB00CDC50D /* 4.GCD在Swift中的重大变化Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040003F41E223ADB00CDC50D /* 4.GCD在Swift中的重大变化UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040004041E223ADB00CDC50D /* Build configuration list for PBXNativeTarget "4.GCD在Swift中的重大变化UITests" */;
+			buildPhases = (
+				040003F11E223ADB00CDC50D /* Sources */,
+				040003F21E223ADB00CDC50D /* Frameworks */,
+				040003F31E223ADB00CDC50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040003F71E223ADB00CDC50D /* PBXTargetDependency */,
+			);
+			name = "4.GCD在Swift中的重大变化UITests";
+			productName = "4.GCD在Swift中的重大变化UITests";
+			productReference = 040003F51E223ADB00CDC50D /* 4.GCD在Swift中的重大变化UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040003CE1E223ADA00CDC50D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = BBC6BAE9;
+				TargetAttributes = {
+					040003D51E223ADA00CDC50D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						ProvisioningStyle = Automatic;
+					};
+					040003E91E223ADB00CDC50D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040003D51E223ADA00CDC50D;
+					};
+					040003F41E223ADB00CDC50D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040003D51E223ADA00CDC50D;
+					};
+				};
+			};
+			buildConfigurationList = 040003D11E223ADA00CDC50D /* Build configuration list for PBXProject "4.GCD在Swift中的重大变化" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040003CD1E223ADA00CDC50D;
+			productRefGroup = 040003D71E223ADA00CDC50D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040003D51E223ADA00CDC50D /* 4.GCD在Swift中的重大变化 */,
+				040003E91E223ADB00CDC50D /* 4.GCD在Swift中的重大变化Tests */,
+				040003F41E223ADB00CDC50D /* 4.GCD在Swift中的重大变化UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040003D41E223ADA00CDC50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040003E41E223ADA00CDC50D /* LaunchScreen.storyboard in Resources */,
+				040003E11E223ADA00CDC50D /* Assets.xcassets in Resources */,
+				040003DF1E223ADA00CDC50D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040003E81E223ADB00CDC50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040003F31E223ADB00CDC50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040003D21E223ADA00CDC50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040003DC1E223ADA00CDC50D /* ViewController.swift in Sources */,
+				040003DA1E223ADA00CDC50D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040003E61E223ADB00CDC50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040003EF1E223ADB00CDC50D /* __GCD_Swift______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040003F11E223ADB00CDC50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040003FA1E223ADB00CDC50D /* __GCD_Swift______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040003EC1E223ADB00CDC50D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040003D51E223ADA00CDC50D /* 4.GCD在Swift中的重大变化 */;
+			targetProxy = 040003EB1E223ADB00CDC50D /* PBXContainerItemProxy */;
+		};
+		040003F71E223ADB00CDC50D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040003D51E223ADA00CDC50D /* 4.GCD在Swift中的重大变化 */;
+			targetProxy = 040003F61E223ADB00CDC50D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040003DD1E223ADA00CDC50D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040003DE1E223ADA00CDC50D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040003E21E223ADA00CDC50D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040003E31E223ADA00CDC50D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040003FC1E223ADB00CDC50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		040003FD1E223ADB00CDC50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040003FF1E223ADB00CDC50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "4.GCD在Swift中的重大变化/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--GCD-Swift------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		040004001E223ADB00CDC50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "4.GCD在Swift中的重大变化/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--GCD-Swift------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		040004021E223ADB00CDC50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "4.GCD在Swift中的重大变化Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--GCD-Swift------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4.GCD在Swift中的重大变化.app/4.GCD在Swift中的重大变化";
+			};
+			name = Debug;
+		};
+		040004031E223ADB00CDC50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "4.GCD在Swift中的重大变化Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--GCD-Swift------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4.GCD在Swift中的重大变化.app/4.GCD在Swift中的重大变化";
+			};
+			name = Release;
+		};
+		040004051E223ADB00CDC50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "4.GCD在Swift中的重大变化UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--GCD-Swift------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "4.GCD在Swift中的重大变化";
+			};
+			name = Debug;
+		};
+		040004061E223ADB00CDC50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "4.GCD在Swift中的重大变化UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--GCD-Swift------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "4.GCD在Swift中的重大变化";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040003D11E223ADA00CDC50D /* Build configuration list for PBXProject "4.GCD在Swift中的重大变化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040003FC1E223ADB00CDC50D /* Debug */,
+				040003FD1E223ADB00CDC50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040003FE1E223ADB00CDC50D /* Build configuration list for PBXNativeTarget "4.GCD在Swift中的重大变化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040003FF1E223ADB00CDC50D /* Debug */,
+				040004001E223ADB00CDC50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		040004011E223ADB00CDC50D /* Build configuration list for PBXNativeTarget "4.GCD在Swift中的重大变化Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040004021E223ADB00CDC50D /* Debug */,
+				040004031E223ADB00CDC50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		040004041E223ADB00CDC50D /* Build configuration list for PBXNativeTarget "4.GCD在Swift中的重大变化UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040004051E223ADB00CDC50D /* Debug */,
+				040004061E223ADB00CDC50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040003CE1E223ADA00CDC50D /* Project object */;
+}

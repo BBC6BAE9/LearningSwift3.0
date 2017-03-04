@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044D243F1E221448002597B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D243E1E221448002597B9 /* AppDelegate.swift */; };
+		044D24411E221448002597B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D24401E221448002597B9 /* ViewController.swift */; };
+		044D24441E221448002597B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044D24421E221448002597B9 /* Main.storyboard */; };
+		044D24461E221448002597B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044D24451E221448002597B9 /* Assets.xcassets */; };
+		044D24491E221448002597B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044D24471E221448002597B9 /* LaunchScreen.storyboard */; };
+		044D24541E221448002597B9 /* ________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D24531E221448002597B9 /* ________Tests.swift */; };
+		044D245F1E221448002597B9 /* ________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D245E1E221448002597B9 /* ________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044D24501E221448002597B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044D24331E221448002597B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044D243A1E221448002597B9;
+			remoteInfo = "按钮枚举文档注释";
+		};
+		044D245B1E221448002597B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044D24331E221448002597B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044D243A1E221448002597B9;
+			remoteInfo = "按钮枚举文档注释";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044D243B1E221448002597B9 /* 按钮枚举文档注释.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "按钮枚举文档注释.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044D243E1E221448002597B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		044D24401E221448002597B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		044D24431E221448002597B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044D24451E221448002597B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044D24481E221448002597B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044D244A1E221448002597B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044D244F1E221448002597B9 /* 按钮枚举文档注释Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮枚举文档注释Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044D24531E221448002597B9 /* ________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________Tests.swift"; sourceTree = "<group>"; };
+		044D24551E221448002597B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044D245A1E221448002597B9 /* 按钮枚举文档注释UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮枚举文档注释UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044D245E1E221448002597B9 /* ________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________UITests.swift"; sourceTree = "<group>"; };
+		044D24601E221448002597B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044D24381E221448002597B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D244C1E221448002597B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D24571E221448002597B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044D24321E221448002597B9 = {
+			isa = PBXGroup;
+			children = (
+				044D243D1E221448002597B9 /* 按钮枚举文档注释 */,
+				044D24521E221448002597B9 /* 按钮枚举文档注释Tests */,
+				044D245D1E221448002597B9 /* 按钮枚举文档注释UITests */,
+				044D243C1E221448002597B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044D243C1E221448002597B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044D243B1E221448002597B9 /* 按钮枚举文档注释.app */,
+				044D244F1E221448002597B9 /* 按钮枚举文档注释Tests.xctest */,
+				044D245A1E221448002597B9 /* 按钮枚举文档注释UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044D243D1E221448002597B9 /* 按钮枚举文档注释 */ = {
+			isa = PBXGroup;
+			children = (
+				044D243E1E221448002597B9 /* AppDelegate.swift */,
+				044D24401E221448002597B9 /* ViewController.swift */,
+				044D24421E221448002597B9 /* Main.storyboard */,
+				044D24451E221448002597B9 /* Assets.xcassets */,
+				044D24471E221448002597B9 /* LaunchScreen.storyboard */,
+				044D244A1E221448002597B9 /* Info.plist */,
+			);
+			path = "按钮枚举文档注释";
+			sourceTree = "<group>";
+		};
+		044D24521E221448002597B9 /* 按钮枚举文档注释Tests */ = {
+			isa = PBXGroup;
+			children = (
+				044D24531E221448002597B9 /* ________Tests.swift */,
+				044D24551E221448002597B9 /* Info.plist */,
+			);
+			path = "按钮枚举文档注释Tests";
+			sourceTree = "<group>";
+		};
+		044D245D1E221448002597B9 /* 按钮枚举文档注释UITests */ = {
+			isa = PBXGroup;
+			children = (
+				044D245E1E221448002597B9 /* ________UITests.swift */,
+				044D24601E221448002597B9 /* Info.plist */,
+			);
+			path = "按钮枚举文档注释UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044D243A1E221448002597B9 /* 按钮枚举文档注释 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044D24631E221448002597B9 /* Build configuration list for PBXNativeTarget "按钮枚举文档注释" */;
+			buildPhases = (
+				044D24371E221448002597B9 /* Sources */,
+				044D24381E221448002597B9 /* Frameworks */,
+				044D24391E221448002597B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "按钮枚举文档注释";
+			productName = "按钮枚举文档注释";
+			productReference = 044D243B1E221448002597B9 /* 按钮枚举文档注释.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044D244E1E221448002597B9 /* 按钮枚举文档注释Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044D24661E221448002597B9 /* Build configuration list for PBXNativeTarget "按钮枚举文档注释Tests" */;
+			buildPhases = (
+				044D244B1E221448002597B9 /* Sources */,
+				044D244C1E221448002597B9 /* Frameworks */,
+				044D244D1E221448002597B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044D24511E221448002597B9 /* PBXTargetDependency */,
+			);
+			name = "按钮枚举文档注释Tests";
+			productName = "按钮枚举文档注释Tests";
+			productReference = 044D244F1E221448002597B9 /* 按钮枚举文档注释Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044D24591E221448002597B9 /* 按钮枚举文档注释UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044D24691E221448002597B9 /* Build configuration list for PBXNativeTarget "按钮枚举文档注释UITests" */;
+			buildPhases = (
+				044D24561E221448002597B9 /* Sources */,
+				044D24571E221448002597B9 /* Frameworks */,
+				044D24581E221448002597B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044D245C1E221448002597B9 /* PBXTargetDependency */,
+			);
+			name = "按钮枚举文档注释UITests";
+			productName = "按钮枚举文档注释UITests";
+			productReference = 044D245A1E221448002597B9 /* 按钮枚举文档注释UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044D24331E221448002597B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = BBC6BAE9;
+				TargetAttributes = {
+					044D243A1E221448002597B9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						ProvisioningStyle = Automatic;
+					};
+					044D244E1E221448002597B9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 044D243A1E221448002597B9;
+					};
+					044D24591E221448002597B9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 044D243A1E221448002597B9;
+					};
+				};
+			};
+			buildConfigurationList = 044D24361E221448002597B9 /* Build configuration list for PBXProject "按钮枚举文档注释" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044D24321E221448002597B9;
+			productRefGroup = 044D243C1E221448002597B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044D243A1E221448002597B9 /* 按钮枚举文档注释 */,
+				044D244E1E221448002597B9 /* 按钮枚举文档注释Tests */,
+				044D24591E221448002597B9 /* 按钮枚举文档注释UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044D24391E221448002597B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044D24491E221448002597B9 /* LaunchScreen.storyboard in Resources */,
+				044D24461E221448002597B9 /* Assets.xcassets in Resources */,
+				044D24441E221448002597B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D244D1E221448002597B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D24581E221448002597B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044D24371E221448002597B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044D24411E221448002597B9 /* ViewController.swift in Sources */,
+				044D243F1E221448002597B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D244B1E221448002597B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044D24541E221448002597B9 /* ________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D24561E221448002597B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044D245F1E221448002597B9 /* ________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044D24511E221448002597B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044D243A1E221448002597B9 /* 按钮枚举文档注释 */;
+			targetProxy = 044D24501E221448002597B9 /* PBXContainerItemProxy */;
+		};
+		044D245C1E221448002597B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044D243A1E221448002597B9 /* 按钮枚举文档注释 */;
+			targetProxy = 044D245B1E221448002597B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044D24421E221448002597B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044D24431E221448002597B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044D24471E221448002597B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044D24481E221448002597B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044D24611E221448002597B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		044D24621E221448002597B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044D24641E221448002597B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "按钮枚举文档注释/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		044D24651E221448002597B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "按钮枚举文档注释/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		044D24671E221448002597B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "按钮枚举文档注释Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/按钮枚举文档注释.app/按钮枚举文档注释";
+			};
+			name = Debug;
+		};
+		044D24681E221448002597B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "按钮枚举文档注释Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/按钮枚举文档注释.app/按钮枚举文档注释";
+			};
+			name = Release;
+		};
+		044D246A1E221448002597B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "按钮枚举文档注释UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "按钮枚举文档注释";
+			};
+			name = Debug;
+		};
+		044D246B1E221448002597B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "按钮枚举文档注释UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "按钮枚举文档注释";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044D24361E221448002597B9 /* Build configuration list for PBXProject "按钮枚举文档注释" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044D24611E221448002597B9 /* Debug */,
+				044D24621E221448002597B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044D24631E221448002597B9 /* Build configuration list for PBXNativeTarget "按钮枚举文档注释" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044D24641E221448002597B9 /* Debug */,
+				044D24651E221448002597B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044D24661E221448002597B9 /* Build configuration list for PBXNativeTarget "按钮枚举文档注释Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044D24671E221448002597B9 /* Debug */,
+				044D24681E221448002597B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044D24691E221448002597B9 /* Build configuration list for PBXNativeTarget "按钮枚举文档注释UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044D246A1E221448002597B9 /* Debug */,
+				044D246B1E221448002597B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044D24331E221448002597B9 /* Project object */;
+}

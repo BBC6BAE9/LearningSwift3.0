@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047C24411E22447A00AD5B14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C24401E22447A00AD5B14 /* AppDelegate.swift */; };
+		047C24431E22447A00AD5B14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C24421E22447A00AD5B14 /* ViewController.swift */; };
+		047C24461E22447A00AD5B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047C24441E22447A00AD5B14 /* Main.storyboard */; };
+		047C24481E22447A00AD5B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047C24471E22447A00AD5B14 /* Assets.xcassets */; };
+		047C244B1E22447A00AD5B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047C24491E22447A00AD5B14 /* LaunchScreen.storyboard */; };
+		047C24561E22447A00AD5B14 /* __OC____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C24551E22447A00AD5B14 /* __OC____Tests.swift */; };
+		047C24611E22447B00AD5B14 /* __OC____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C24601E22447B00AD5B14 /* __OC____UITests.swift */; };
+		047C24711E22459600AD5B14 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C24701E22459600AD5B14 /* DemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047C24521E22447A00AD5B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047C24351E22447A00AD5B14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047C243C1E22447A00AD5B14;
+			remoteInfo = "5.OC{}的坑";
+		};
+		047C245D1E22447B00AD5B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047C24351E22447A00AD5B14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047C243C1E22447A00AD5B14;
+			remoteInfo = "5.OC{}的坑";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047C243D1E22447A00AD5B14 /* 5.OC{}的坑.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5.OC{}的坑.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047C24401E22447A00AD5B14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047C24421E22447A00AD5B14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047C24451E22447A00AD5B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047C24471E22447A00AD5B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047C244A1E22447A00AD5B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047C244C1E22447A00AD5B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047C24511E22447A00AD5B14 /* 5.OC{}的坑Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5.OC{}的坑Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047C24551E22447A00AD5B14 /* __OC____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__OC____Tests.swift"; sourceTree = "<group>"; };
+		047C24571E22447A00AD5B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047C245C1E22447B00AD5B14 /* 5.OC{}的坑UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5.OC{}的坑UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047C24601E22447B00AD5B14 /* __OC____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__OC____UITests.swift"; sourceTree = "<group>"; };
+		047C24621E22447B00AD5B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047C246E1E22459500AD5B14 /* 5.OC{}的坑-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5.OC{}的坑-Bridging-Header.h"; sourceTree = "<group>"; };
+		047C246F1E22459600AD5B14 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		047C24701E22459600AD5B14 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047C243A1E22447A00AD5B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047C244E1E22447A00AD5B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047C24591E22447B00AD5B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047C24341E22447A00AD5B14 = {
+			isa = PBXGroup;
+			children = (
+				047C243F1E22447A00AD5B14 /* 5.OC{}的坑 */,
+				047C24541E22447A00AD5B14 /* 5.OC{}的坑Tests */,
+				047C245F1E22447B00AD5B14 /* 5.OC{}的坑UITests */,
+				047C243E1E22447A00AD5B14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047C243E1E22447A00AD5B14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047C243D1E22447A00AD5B14 /* 5.OC{}的坑.app */,
+				047C24511E22447A00AD5B14 /* 5.OC{}的坑Tests.xctest */,
+				047C245C1E22447B00AD5B14 /* 5.OC{}的坑UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047C243F1E22447A00AD5B14 /* 5.OC{}的坑 */ = {
+			isa = PBXGroup;
+			children = (
+				047C24401E22447A00AD5B14 /* AppDelegate.swift */,
+				047C24421E22447A00AD5B14 /* ViewController.swift */,
+				047C246F1E22459600AD5B14 /* DemoViewController.h */,
+				047C24701E22459600AD5B14 /* DemoViewController.m */,
+				047C24441E22447A00AD5B14 /* Main.storyboard */,
+				047C24471E22447A00AD5B14 /* Assets.xcassets */,
+				047C24491E22447A00AD5B14 /* LaunchScreen.storyboard */,
+				047C244C1E22447A00AD5B14 /* Info.plist */,
+				047C246E1E22459500AD5B14 /* 5.OC{}的坑-Bridging-Header.h */,
+			);
+			path = "5.OC{}的坑";
+			sourceTree = "<group>";
+		};
+		047C24541E22447A00AD5B14 /* 5.OC{}的坑Tests */ = {
+			isa = PBXGroup;
+			children = (
+				047C24551E22447A00AD5B14 /* __OC____Tests.swift */,
+				047C24571E22447A00AD5B14 /* Info.plist */,
+			);
+			path = "5.OC{}的坑Tests";
+			sourceTree = "<group>";
+		};
+		047C245F1E22447B00AD5B14 /* 5.OC{}的坑UITests */ = {
+			isa = PBXGroup;
+			children = (
+				047C24601E22447B00AD5B14 /* __OC____UITests.swift */,
+				047C24621E22447B00AD5B14 /* Info.plist */,
+			);
+			path = "5.OC{}的坑UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047C243C1E22447A00AD5B14 /* 5.OC{}的坑 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047C24651E22447B00AD5B14 /* Build configuration list for PBXNativeTarget "5.OC{}的坑" */;
+			buildPhases = (
+				047C24391E22447A00AD5B14 /* Sources */,
+				047C243A1E22447A00AD5B14 /* Frameworks */,
+				047C243B1E22447A00AD5B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5.OC{}的坑";
+			productName = "5.OC{}的坑";
+			productReference = 047C243D1E22447A00AD5B14 /* 5.OC{}的坑.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047C24501E22447A00AD5B14 /* 5.OC{}的坑Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047C24681E22447B00AD5B14 /* Build configuration list for PBXNativeTarget "5.OC{}的坑Tests" */;
+			buildPhases = (
+				047C244D1E22447A00AD5B14 /* Sources */,
+				047C244E1E22447A00AD5B14 /* Frameworks */,
+				047C244F1E22447A00AD5B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047C24531E22447A00AD5B14 /* PBXTargetDependency */,
+			);
+			name = "5.OC{}的坑Tests";
+			productName = "5.OC{}的坑Tests";
+			productReference = 047C24511E22447A00AD5B14 /* 5.OC{}的坑Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047C245B1E22447B00AD5B14 /* 5.OC{}的坑UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047C246B1E22447B00AD5B14 /* Build configuration list for PBXNativeTarget "5.OC{}的坑UITests" */;
+			buildPhases = (
+				047C24581E22447B00AD5B14 /* Sources */,
+				047C24591E22447B00AD5B14 /* Frameworks */,
+				047C245A1E22447B00AD5B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047C245E1E22447B00AD5B14 /* PBXTargetDependency */,
+			);
+			name = "5.OC{}的坑UITests";
+			productName = "5.OC{}的坑UITests";
+			productReference = 047C245C1E22447B00AD5B14 /* 5.OC{}的坑UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047C24351E22447A00AD5B14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = BBC6BAE9;
+				TargetAttributes = {
+					047C243C1E22447A00AD5B14 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					047C24501E22447A00AD5B14 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047C243C1E22447A00AD5B14;
+					};
+					047C245B1E22447B00AD5B14 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U3Z8K685BU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047C243C1E22447A00AD5B14;
+					};
+				};
+			};
+			buildConfigurationList = 047C24381E22447A00AD5B14 /* Build configuration list for PBXProject "5.OC{}的坑" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047C24341E22447A00AD5B14;
+			productRefGroup = 047C243E1E22447A00AD5B14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047C243C1E22447A00AD5B14 /* 5.OC{}的坑 */,
+				047C24501E22447A00AD5B14 /* 5.OC{}的坑Tests */,
+				047C245B1E22447B00AD5B14 /* 5.OC{}的坑UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047C243B1E22447A00AD5B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047C244B1E22447A00AD5B14 /* LaunchScreen.storyboard in Resources */,
+				047C24481E22447A00AD5B14 /* Assets.xcassets in Resources */,
+				047C24461E22447A00AD5B14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047C244F1E22447A00AD5B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047C245A1E22447B00AD5B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047C24391E22447A00AD5B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047C24711E22459600AD5B14 /* DemoViewController.m in Sources */,
+				047C24431E22447A00AD5B14 /* ViewController.swift in Sources */,
+				047C24411E22447A00AD5B14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047C244D1E22447A00AD5B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047C24561E22447A00AD5B14 /* __OC____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047C24581E22447B00AD5B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047C24611E22447B00AD5B14 /* __OC____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047C24531E22447A00AD5B14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047C243C1E22447A00AD5B14 /* 5.OC{}的坑 */;
+			targetProxy = 047C24521E22447A00AD5B14 /* PBXContainerItemProxy */;
+		};
+		047C245E1E22447B00AD5B14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047C243C1E22447A00AD5B14 /* 5.OC{}的坑 */;
+			targetProxy = 047C245D1E22447B00AD5B14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047C24441E22447A00AD5B14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047C24451E22447A00AD5B14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047C24491E22447A00AD5B14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047C244A1E22447A00AD5B14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047C24631E22447B00AD5B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047C24641E22447B00AD5B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047C24661E22447B00AD5B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "5.OC{}的坑/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--OC----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "5.OC{}的坑/5.OC{}的坑-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		047C24671E22447B00AD5B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "5.OC{}的坑/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--OC----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "5.OC{}的坑/5.OC{}的坑-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		047C24691E22447B00AD5B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "5.OC{}的坑Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--OC----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5.OC{}的坑.app/5.OC{}的坑";
+			};
+			name = Debug;
+		};
+		047C246A1E22447B00AD5B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "5.OC{}的坑Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--OC----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5.OC{}的坑.app/5.OC{}的坑";
+			};
+			name = Release;
+		};
+		047C246C1E22447B00AD5B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "5.OC{}的坑UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--OC----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "5.OC{}的坑";
+			};
+			name = Debug;
+		};
+		047C246D1E22447B00AD5B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3Z8K685BU;
+				INFOPLIST_FILE = "5.OC{}的坑UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hh.--OC----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "5.OC{}的坑";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047C24381E22447A00AD5B14 /* Build configuration list for PBXProject "5.OC{}的坑" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047C24631E22447B00AD5B14 /* Debug */,
+				047C24641E22447B00AD5B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047C24651E22447B00AD5B14 /* Build configuration list for PBXNativeTarget "5.OC{}的坑" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047C24661E22447B00AD5B14 /* Debug */,
+				047C24671E22447B00AD5B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		047C24681E22447B00AD5B14 /* Build configuration list for PBXNativeTarget "5.OC{}的坑Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047C24691E22447B00AD5B14 /* Debug */,
+				047C246A1E22447B00AD5B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		047C246B1E22447B00AD5B14 /* Build configuration list for PBXNativeTarget "5.OC{}的坑UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047C246C1E22447B00AD5B14 /* Debug */,
+				047C246D1E22447B00AD5B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047C24351E22447A00AD5B14 /* Project object */;
+}
